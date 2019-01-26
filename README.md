@@ -12,7 +12,7 @@ As time went by, the source code and database was lost to me, and for over 10 ye
 ## Data format
 The original database consisted of a little more than 800 species, each described by up to 35 attributes. A JSON representation of this original data can be found in the file **data/fungi-original.json**. It consists of several different types of attributes: enumerations, sets and color ranges etc.
 
-For machine learning purposes, this data was then used to create 100 samples of each species with a random distribution of attributes among the possible values. E.g. for the cap color of an Amanita virosa, a random color between bright red and pale yellow was selected, since that was the color range of the original dataset. This data is intended to mimic 100 descriptions of each species, as described by an observer of a sample.
+For machine learning purposes, this data was then used to create 100 samples of each species with a random distribution of attributes among the possible values. E.g. for the cap color of an Amanita muscaria, a random color between bright red and pale yellow was selected, since that was the color range of the original dataset. This data is intended to mimic 100 descriptions of each species, as described by an observer of a sample.
 
 The machine learning optimized dataset can be found in **data/fungi-ml.txt**, where the last column denotes the index of the species. To get the latin name of the species, the index needs to be crossreferenced with the data in **fungi-original.json**.
 
