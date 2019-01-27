@@ -7,7 +7,7 @@ Sometime in the early 2000's I took it upon myself to create a searchable fungi 
 
 The data was included in the software **SvampCentralen**, distributed on CD. I sold this software for a couple of years, but it didn't sell very well and after a few years the project was abandoned.
 
-As time went by, the source code and database was lost to me, and for over 10 years I thought that I had no remaining copies of it. But in late September 2018 I came across a hard drive that hadn't been used for years, and on it I found both the source code and the database. I immediately started trying to extract the data into a format that could be used for machine learning, an area of expertise that I've been increasinly interested in the last few years.
+As time went by, the source code and database was lost to me, and for over 10 years I thought that I had no remaining copies of it. But in late September 2018 I came across a hard drive that hadn't been used for years, and on it I found both the source code and the database. I immediately started trying to extract the data into a format that could be used for machine learning, an area of expertise that I've been increasingly interested in the last few years.
 
 ## Data format
 The original database consisted of a little more than 800 species, each described by up to 35 attributes. A JSON representation of this original data can be found in the file **data/fungi-original.json**. It consists of several different types of attributes: enumerations, sets and color ranges etc.
