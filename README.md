@@ -14,7 +14,7 @@ The original database consisted of a little more than 800 species, each describe
 
 For machine learning purposes, this data was then used to create 100 samples of each species with a random distribution of attributes among the possible values. E.g. for the cap color of an Amanita virosa, a random color between bright red and pale yellow was selected, since that was the color range of the original dataset. This data is intended to mimic 100 descriptions of each species, as described by an observer of a sample.
 
-The machine learning optimized dataset can be found in **data/fungi-ml.txt**, where the last column denotes the index of the species. To get the latin name of the species, the index needs to be crossreferenced with the data in **fungi-original.json**.
+The machine learning optimized dataset can be found in **data/fungi-ml.txt**, where the last column denotes the index of the species. To get the latin name of the species, the index needs to be crossreferenced with the data in **classes.txt**.
 
 ## Jupyter Notebook
 A Jupyter Notebook that loads the dataset and performs an accuracy test of it it also included in **jupyter/fungi-dataset-naive-bayes.ipynb**. The accuracy score is around 95-96%, which looks promising to me even if it's all hypothetical for now.
