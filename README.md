@@ -1,4 +1,4 @@
-# fungi-machinelearning-dataset
+# Fungi machine learning dataset
 
 Machine learning dataset for fungi native to Sweden
 
